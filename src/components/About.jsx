@@ -50,7 +50,7 @@ const About = () => {
               I&apos;m Prem Kumar J, a Full Stack Developer
             </h3>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              I am a fresher in full-stack web development with hands-on experience in React, Node.js, MongoDB, and other modern technologies. I recently completed a 6-month internship at WhyTap as a Full Stack Web Developer, where I gained practical exposure to building real-world web applications. Prior to this, I worked for 2 years and 10 months as an Office Assistant in a manufacturing company, where I developed strong skills in data handling, organization, and communication. I&apos;m now excited to combine my technical skills and professional experience to contribute meaningfully to web development projects.
+              I am a motivated professional with experience in customer support, office administration, and full-stack web development. I completed a Full Stack Web Developer internship at Why Global Services from 2024 to 2025, where I built responsive web applications and RESTful APIs using React, Node.js, Express, and MongoDB. Previously, I worked for 2.5 years as an Office Assistant at Mercury Fittings Pvt. Ltd., managing employee data, reports, and supporting daily operations using Excel and ERP systems. I bring strong communication, problem-solving, and technical skills, and I am eager to contribute effectively to both technical and customer-focused roles.
             </p>
 
             {/* Download Resume Button */}

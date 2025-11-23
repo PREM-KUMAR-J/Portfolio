@@ -1,7 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaBehance } from "react-icons/fa";
-import { MapPinIcon, EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/outline";
+import {
+  MapPinIcon,
+  EnvelopeIcon,
+  PhoneIcon,
+} from "@heroicons/react/24/outline";
 
 const Contact = () => {
   const [result, setResult] = React.useState("");
@@ -15,7 +19,7 @@ const Contact = () => {
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
-      body: formData
+      body: formData,
     });
 
     const data = await response.json();
@@ -67,7 +71,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium text-white">Location</h3>
-                  <p className="text-gray-400">Kilpauk, Chennai</p>
+                  <p className="text-gray-400">Anna Nagar East, Chennai</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
@@ -134,7 +138,10 @@ const Contact = () => {
             <form onSubmit={onSubmit} className="space-y-6">
               <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-1">
+                  <label
+                    htmlFor="name"
+                    className="block text-sm font-medium text-gray-300 mb-1"
+                  >
                     Name
                   </label>
                   <input
@@ -146,7 +153,10 @@ const Contact = () => {
                   />
                 </div>
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-1">
+                  <label
+                    htmlFor="email"
+                    className="block text-sm font-medium text-gray-300 mb-1"
+                  >
                     Email
                   </label>
                   <input
@@ -159,7 +169,10 @@ const Contact = () => {
                 </div>
               </div>
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-1">
+                <label
+                  htmlFor="message"
+                  className="block text-sm font-medium text-gray-300 mb-1"
+                >
                   Message
                 </label>
                 <textarea
